@@ -1,13 +1,11 @@
-# Ask the user to enter their score (0-100)
+print("enter score")
 score = int(input("Enter your score: "))
 
-# if the score is 90 or above
 if score >= 90:
-    # TODO: Assign the grade "A" to a variable
+    print("score=A")
 
-# if the score is between 80 and 89
 elif score >= 80:
-    # TODO: Assign the grade "B" to a variable
+   print("score=b")
 
 # if the score is between 70 and 79
 elif score >= 70:
